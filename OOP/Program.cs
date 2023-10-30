@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using OOP;
+
+Book book = new Book();
+book.Name = "O'tgan kunlar";
+book.Author = "Abdulla Qodiriy";
+book.Price = 32000;
+
+book.SetNewProper();
+Console.WriteLine("===============");
+book.GetAllInfo();
+
